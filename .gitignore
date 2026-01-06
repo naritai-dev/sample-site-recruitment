@@ -10,7 +10,7 @@
 
 # next.js
 /.next/
-# /out/  # GitHub Pages用にoutディレクトリはコミットする場合があるためコメントアウト
+/out/  # GitHub Actionsで自動生成されるためコミット不要
 
 # production
 /build
