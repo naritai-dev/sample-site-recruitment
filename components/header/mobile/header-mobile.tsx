@@ -49,7 +49,7 @@ export function HeaderMobile(): JSX.Element {
         id="mobile-menu"
         className={`${
           isMobileMenuOpen ? 'block' : 'hidden'
-        } absolute top-full left-0 w-full bg-white shadow-lg border-t`}
+        } absolute top-full left-0 w-full bg-white shadow-sm border-t`}
         aria-label="モバイルメニュー"
       >
         <div className="flex flex-col p-4 gap-4">

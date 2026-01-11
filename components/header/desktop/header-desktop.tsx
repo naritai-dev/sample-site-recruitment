@@ -17,31 +17,31 @@ export function HeaderDesktop(): JSX.Element {
         <nav className="flex items-center gap-8" aria-label="メインナビゲーション">
           <Link
             href="#about"
-            className="text-slate-600 hover:text-emerald-600 font-medium transition"
+            className="text-slate-600 hover:text-emerald-600 font-medium transition-colors duration-200 ease-out"
           >
             会社について
           </Link>
           <Link
             href="#services"
-            className="text-slate-600 hover:text-emerald-600 font-medium transition"
+            className="text-slate-600 hover:text-emerald-600 font-medium transition-colors duration-200 ease-out"
           >
             事業内容
           </Link>
           <Link
             href="#recruit"
-            className="text-slate-600 hover:text-emerald-600 font-medium transition"
+            className="text-slate-600 hover:text-emerald-600 font-medium transition-colors duration-200 ease-out"
           >
             募集要項
           </Link>
           <Link
             href="#company"
-            className="text-slate-600 hover:text-emerald-600 font-medium transition"
+            className="text-slate-600 hover:text-emerald-600 font-medium transition-colors duration-200 ease-out"
           >
             会社概要
           </Link>
           <Link
             href="#entry"
-            className="bg-emerald-600 text-white px-6 py-2 rounded-full font-bold hover:bg-emerald-700 transition shadow-lg hover:shadow-emerald-500/30"
+            className="bg-emerald-600 text-white px-6 py-2 rounded-full font-bold hover:bg-emerald-700 transition-all duration-200 ease-out shadow-sm hover:shadow-md"
           >
             ENTRY
           </Link>

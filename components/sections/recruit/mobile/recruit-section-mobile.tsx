@@ -51,7 +51,7 @@ export function RecruitSectionMobile(): JSX.Element {
             RECRUITMENT
           </h2>
           <div className="w-16 h-1 bg-emerald-500 mx-auto" />
-          <p className="mt-4 text-slate-600 text-sm">募集要項</p>
+          <p className="mt-4 text-slate-500 text-sm">募集要項</p>
         </div>
 
         {/* Job Cards */}
@@ -68,7 +68,7 @@ export function RecruitSectionMobile(): JSX.Element {
             return (
               <div
                 key={position.title}
-                className="bg-white rounded-xl shadow-lg border border-slate-100 overflow-hidden"
+                className="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden"
               >
                 <div className={`${badgeBgClass} p-3 flex justify-between items-center`}>
                   <h3 className="text-lg font-bold text-white flex items-center gap-2">
@@ -116,8 +116,8 @@ export function RecruitSectionMobile(): JSX.Element {
         </div>
 
         {/* Common Requirements Table */}
-        <div className="bg-white rounded-xl shadow-md p-6">
-          <h3 className="text-lg font-bold text-slate-800 mb-4 border-l-4 border-emerald-500 pl-3">
+        <div className="bg-white rounded-xl shadow-sm p-6">
+          <h3 className="text-lg font-bold text-slate-800 mb-4 border-l border-emerald-500 pl-3">
             共通待遇・福利厚生
           </h3>
           <div className="overflow-x-auto">
@@ -196,13 +196,13 @@ export function RecruitSectionMobile(): JSX.Element {
             <div className="flex flex-col justify-center gap-3 relative z-10">
               <button
                 type="button"
-                className="bg-emerald-500 text-white px-6 py-3 rounded-full font-bold text-base hover:bg-emerald-400 transition shadow-lg w-full"
+                className="bg-emerald-500 text-white px-6 py-3 rounded-full font-bold text-base hover:bg-emerald-400 transition-all duration-200 ease-out shadow-sm hover:shadow-md w-full"
               >
                 エントリーフォームへ
               </button>
               <button
                 type="button"
-                className="bg-transparent border border-white text-white px-6 py-3 rounded-full font-bold text-base hover:bg-white/10 transition w-full"
+                className="bg-transparent border border-white text-white px-6 py-3 rounded-full font-bold text-base hover:bg-white/10 transition-all duration-200 ease-out w-full"
               >
                 Wantedlyで見る
               </button>

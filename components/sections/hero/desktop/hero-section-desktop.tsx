@@ -34,13 +34,13 @@ export function HeroSectionDesktop(): JSX.Element {
           <div className="flex flex-row gap-4 justify-start">
             <Link
               href="#recruit"
-              className="bg-emerald-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-emerald-400 transition flex items-center justify-center gap-2"
+              className="bg-emerald-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-emerald-400 transition-all duration-200 ease-out shadow-sm hover:shadow-md flex items-center justify-center gap-2"
             >
               募集職種を見る <ArrowDown className="w-5 h-5" aria-hidden="true" />
             </Link>
             <Link
               href="#about"
-              className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-emerald-900 transition"
+              className="bg-transparent border border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-emerald-900 transition-all duration-200 ease-out"
             >
               私たちについて
             </Link>

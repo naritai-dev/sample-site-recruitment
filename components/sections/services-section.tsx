@@ -35,14 +35,14 @@ export function ServicesSection(): JSX.Element {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-4">SERVICES</h2>
           <div className="w-16 h-1 bg-emerald-500 mx-auto" />
-          <p className="mt-4 text-slate-600">私たちの事業</p>
+          <p className="mt-4 text-slate-500">私たちの事業</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
           {services.map((service) => (
             <div
               key={service.title}
-              className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1"
+              className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-all duration-200 ease-out hover:-translate-y-0.5"
             >
               <div className="w-14 h-14 bg-emerald-100 rounded-lg flex items-center justify-center text-emerald-600 mb-6">
                 {iconMap[service.icon] ?? null}

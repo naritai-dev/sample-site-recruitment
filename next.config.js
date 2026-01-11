@@ -6,9 +6,10 @@ const nextConfig = {
   output: 'export',
   // リポジトリ名: sample-site-recruitment
   // GitHub Pages URL: https://naritai-dev.github.io/sample-site-recruitment
-  basePath: process.env.NODE_ENV === 'production' 
-    ? (process.env.BASE_PATH || '/sample-site-recruitment')
-    : '',
+  basePath:
+    process.env.NODE_ENV === 'production'
+      ? process.env.BASE_PATH || '/sample-site-recruitment'
+      : '',
   images: {
     // 静的エクスポート時は画像最適化が無効になるため、unoptimizedを設定
     unoptimized: true,
