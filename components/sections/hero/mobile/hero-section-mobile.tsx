@@ -27,8 +27,9 @@ export function HeroSectionMobile(): JSX.Element {
             最短距離で駆け上がれ。
           </h1>
           <p className="text-lg text-slate-200 mb-10 leading-relaxed">
-            ナリタイカンパニー株式会社は、あなたの「野心」と「こだわり」を燃料に、
-            企業の成長と個人の自己実現を同時に叶える場所です。
+            <span className="block">ナリタイカンパニー株式会社は、</span>
+            <span className="block">あなたの「野心」と「こだわり」を燃料に、</span>
+            <span className="block">企業の成長と個人の自己実現を同時に叶える場所です。</span>
           </p>
           <div className="flex flex-col gap-4 justify-center">
             <Link
