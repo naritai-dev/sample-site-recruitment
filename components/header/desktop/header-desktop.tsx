@@ -43,7 +43,7 @@ export function HeaderDesktop(): JSX.Element {
             href="#entry"
             className="bg-emerald-600 text-white px-6 py-2 rounded-full font-bold hover:bg-emerald-700 transition-all duration-200 ease-out shadow-sm hover:shadow-md"
           >
-            ENTRY
+            エントリー
           </Link>
         </nav>
       </div>

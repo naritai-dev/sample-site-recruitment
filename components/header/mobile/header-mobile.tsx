@@ -86,7 +86,7 @@ export function HeaderMobile(): JSX.Element {
             className="bg-emerald-600 text-center text-white px-6 py-3 rounded-md font-bold"
             onClick={handleLinkClick}
           >
-            ENTRY
+            エントリー
           </Link>
         </div>
       </div>
